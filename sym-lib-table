@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name mosogep-rescue)(type Legacy)(uri ${KIPRJMOD}/mosogep-rescue.lib)(options "")(descr ""))
+  (lib (name spec_alk)(type Legacy)(uri ${KIPRJMOD}/spec_alk.lib)(options "")(descr ""))
+)

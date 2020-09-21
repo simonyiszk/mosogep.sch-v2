@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -14,14 +14,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x02_Male J?
+L Connector:Conn_01x02_Male J3
 U 1 1 5F767A44
 P 2950 4000
-AR Path="/5F747DA7/5F767A44" Ref="J?"  Part="1" 
-AR Path="/5F79F032/5F767A44" Ref="J?"  Part="1" 
-AR Path="/5F7A6B7B/5F767A44" Ref="J?"  Part="1" 
-AR Path="/5F7B080A/5F767A44" Ref="J?"  Part="1" 
-F 0 "J?" H 3056 4178 50  0000 C CNN
+AR Path="/5F747DA7/5F767A44" Ref="J3"  Part="1" 
+AR Path="/5F79F032/5F767A44" Ref="J5"  Part="1" 
+AR Path="/5F7A6B7B/5F767A44" Ref="J6"  Part="1" 
+AR Path="/5F7B080A/5F767A44" Ref="J7"  Part="1" 
+F 0 "J5" H 3056 4178 50  0000 C CNN
 F 1 "AC1010" H 3056 4087 50  0000 C CNN
 F 2 "" H 2950 4000 50  0001 C CNN
 F 3 "~" H 2950 4000 50  0001 C CNN
@@ -29,14 +29,14 @@ F 3 "~" H 2950 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R20
 U 1 1 5F767A4A
 P 3650 3900
-AR Path="/5F747DA7/5F767A4A" Ref="R?"  Part="1" 
-AR Path="/5F79F032/5F767A4A" Ref="R?"  Part="1" 
-AR Path="/5F7A6B7B/5F767A4A" Ref="R?"  Part="1" 
-AR Path="/5F7B080A/5F767A4A" Ref="R?"  Part="1" 
-F 0 "R?" H 3720 3946 50  0000 L CNN
+AR Path="/5F747DA7/5F767A4A" Ref="R20"  Part="1" 
+AR Path="/5F79F032/5F767A4A" Ref="R43"  Part="1" 
+AR Path="/5F7A6B7B/5F767A4A" Ref="R53"  Part="1" 
+AR Path="/5F7B080A/5F767A4A" Ref="R63"  Part="1" 
+F 0 "R43" H 3720 3946 50  0000 L CNN
 F 1 "50" H 3720 3855 50  0000 L CNN
 F 2 "" V 3580 3900 50  0001 C CNN
 F 3 "~" H 3650 3900 50  0001 C CNN
@@ -44,14 +44,14 @@ F 3 "~" H 3650 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R21
 U 1 1 5F767A50
 P 3650 4200
-AR Path="/5F747DA7/5F767A50" Ref="R?"  Part="1" 
-AR Path="/5F79F032/5F767A50" Ref="R?"  Part="1" 
-AR Path="/5F7A6B7B/5F767A50" Ref="R?"  Part="1" 
-AR Path="/5F7B080A/5F767A50" Ref="R?"  Part="1" 
-F 0 "R?" H 3720 4246 50  0000 L CNN
+AR Path="/5F747DA7/5F767A50" Ref="R21"  Part="1" 
+AR Path="/5F79F032/5F767A50" Ref="R44"  Part="1" 
+AR Path="/5F7A6B7B/5F767A50" Ref="R54"  Part="1" 
+AR Path="/5F7B080A/5F767A50" Ref="R64"  Part="1" 
+F 0 "R44" H 3720 4246 50  0000 L CNN
 F 1 "50" H 3720 4155 50  0000 L CNN
 F 2 "" V 3580 4200 50  0001 C CNN
 F 3 "~" H 3650 4200 50  0001 C CNN
@@ -71,75 +71,75 @@ Wire Wire Line
 Wire Wire Line
 	3400 4350 3650 4350
 $Comp
-L Amplifier_Operational:TL084 U?
+L Amplifier_Operational:TL084 U6
 U 1 1 5F767A5C
 P 4700 3600
-AR Path="/5F747DA7/5F767A5C" Ref="U?"  Part="1" 
-AR Path="/5F79F032/5F767A5C" Ref="U?"  Part="1" 
-AR Path="/5F7A6B7B/5F767A5C" Ref="U?"  Part="1" 
-AR Path="/5F7B080A/5F767A5C" Ref="U?"  Part="1" 
-F 0 "U?" H 4700 3967 50  0000 C CNN
-F 1 "TL084" H 4700 3876 50  0000 C CNN
+AR Path="/5F747DA7/5F767A5C" Ref="U6"  Part="1" 
+AR Path="/5F79F032/5F767A5C" Ref="U8"  Part="1" 
+AR Path="/5F7A6B7B/5F767A5C" Ref="U9"  Part="1" 
+AR Path="/5F7B080A/5F767A5C" Ref="U10"  Part="1" 
+F 0 "U8" H 4700 3967 50  0000 C CNN
+F 1 "mc33204" H 4700 3876 50  0000 C CNN
 F 2 "" H 4650 3700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 4750 3800 50  0001 C CNN
 	1    4700 3600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U?
+L Amplifier_Operational:TL084 U6
 U 2 1 5F767A62
 P 4700 4500
-AR Path="/5F747DA7/5F767A62" Ref="U?"  Part="2" 
-AR Path="/5F79F032/5F767A62" Ref="U?"  Part="2" 
-AR Path="/5F7A6B7B/5F767A62" Ref="U?"  Part="2" 
-AR Path="/5F7B080A/5F767A62" Ref="U?"  Part="2" 
-F 0 "U?" H 4700 4133 50  0000 C CNN
-F 1 "TL084" H 4700 4224 50  0000 C CNN
+AR Path="/5F747DA7/5F767A62" Ref="U6"  Part="2" 
+AR Path="/5F79F032/5F767A62" Ref="U8"  Part="2" 
+AR Path="/5F7A6B7B/5F767A62" Ref="U9"  Part="2" 
+AR Path="/5F7B080A/5F767A62" Ref="U10"  Part="2" 
+F 0 "U8" H 4700 4133 50  0000 C CNN
+F 1 "mc33204" H 4700 4224 50  0000 C CNN
 F 2 "" H 4650 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 4750 4700 50  0001 C CNN
 	2    4700 4500
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U?
+L Amplifier_Operational:TL084 U6
 U 3 1 5F767A68
 P 5950 4000
-AR Path="/5F747DA7/5F767A68" Ref="U?"  Part="3" 
-AR Path="/5F79F032/5F767A68" Ref="U?"  Part="3" 
-AR Path="/5F7A6B7B/5F767A68" Ref="U?"  Part="3" 
-AR Path="/5F7B080A/5F767A68" Ref="U?"  Part="3" 
-F 0 "U?" H 5950 3633 50  0000 C CNN
-F 1 "TL084" H 5950 3724 50  0000 C CNN
+AR Path="/5F747DA7/5F767A68" Ref="U6"  Part="3" 
+AR Path="/5F79F032/5F767A68" Ref="U8"  Part="3" 
+AR Path="/5F7A6B7B/5F767A68" Ref="U9"  Part="3" 
+AR Path="/5F7B080A/5F767A68" Ref="U10"  Part="3" 
+F 0 "U8" H 5950 3633 50  0000 C CNN
+F 1 "mc33204" H 5950 3724 50  0000 C CNN
 F 2 "" H 5900 4100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6000 4200 50  0001 C CNN
 	3    5950 4000
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U?
+L Amplifier_Operational:TL084 U6
 U 4 1 5F767A6E
 P 6900 4000
-AR Path="/5F747DA7/5F767A6E" Ref="U?"  Part="4" 
-AR Path="/5F79F032/5F767A6E" Ref="U?"  Part="4" 
-AR Path="/5F7A6B7B/5F767A6E" Ref="U?"  Part="4" 
-AR Path="/5F7B080A/5F767A6E" Ref="U?"  Part="4" 
-F 0 "U?" H 6900 4367 50  0000 C CNN
-F 1 "TL084" H 6900 4276 50  0000 C CNN
+AR Path="/5F747DA7/5F767A6E" Ref="U6"  Part="4" 
+AR Path="/5F79F032/5F767A6E" Ref="U8"  Part="4" 
+AR Path="/5F7A6B7B/5F767A6E" Ref="U9"  Part="4" 
+AR Path="/5F7B080A/5F767A6E" Ref="U10"  Part="4" 
+F 0 "U8" H 6900 4367 50  0000 C CNN
+F 1 "mc33204" H 6900 4276 50  0000 C CNN
 F 2 "" H 6850 4100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 6950 4200 50  0001 C CNN
 	4    6900 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL084 U?
+L Amplifier_Operational:TL084 U6
 U 5 1 5F767A74
 P 7300 3400
-AR Path="/5F747DA7/5F767A74" Ref="U?"  Part="5" 
-AR Path="/5F79F032/5F767A74" Ref="U?"  Part="5" 
-AR Path="/5F7A6B7B/5F767A74" Ref="U?"  Part="5" 
-AR Path="/5F7B080A/5F767A74" Ref="U?"  Part="5" 
-F 0 "U?" H 7258 3446 50  0000 L CNN
-F 1 "TL084" H 7258 3355 50  0000 L CNN
+AR Path="/5F747DA7/5F767A74" Ref="U6"  Part="5" 
+AR Path="/5F79F032/5F767A74" Ref="U8"  Part="5" 
+AR Path="/5F7A6B7B/5F767A74" Ref="U9"  Part="5" 
+AR Path="/5F7B080A/5F767A74" Ref="U10"  Part="5" 
+F 0 "U8" H 7258 3446 50  0000 L CNN
+F 1 "mc33204" H 7258 3355 50  0000 L CNN
 F 2 "" H 7250 3500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 7350 3600 50  0001 C CNN
 	5    7300 3400
@@ -148,14 +148,14 @@ $EndComp
 Connection ~ 3650 3750
 Connection ~ 3650 4350
 $Comp
-L Device:R R?
+L Device:R R22
 U 1 1 5F767A7C
 P 5000 3750
-AR Path="/5F747DA7/5F767A7C" Ref="R?"  Part="1" 
-AR Path="/5F79F032/5F767A7C" Ref="R?"  Part="1" 
-AR Path="/5F7A6B7B/5F767A7C" Ref="R?"  Part="1" 
-AR Path="/5F7B080A/5F767A7C" Ref="R?"  Part="1" 
-F 0 "R?" H 5070 3796 50  0000 L CNN
+AR Path="/5F747DA7/5F767A7C" Ref="R22"  Part="1" 
+AR Path="/5F79F032/5F767A7C" Ref="R45"  Part="1" 
+AR Path="/5F7A6B7B/5F767A7C" Ref="R55"  Part="1" 
+AR Path="/5F7B080A/5F767A7C" Ref="R65"  Part="1" 
+F 0 "R45" H 5070 3796 50  0000 L CNN
 F 1 "100k" H 5070 3705 50  0000 L CNN
 F 2 "" V 4930 3750 50  0001 C CNN
 F 3 "~" H 5000 3750 50  0001 C CNN
@@ -163,14 +163,14 @@ F 3 "~" H 5000 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R24
 U 1 1 5F767A82
 P 5000 4350
-AR Path="/5F747DA7/5F767A82" Ref="R?"  Part="1" 
-AR Path="/5F79F032/5F767A82" Ref="R?"  Part="1" 
-AR Path="/5F7A6B7B/5F767A82" Ref="R?"  Part="1" 
-AR Path="/5F7B080A/5F767A82" Ref="R?"  Part="1" 
-F 0 "R?" H 5070 4396 50  0000 L CNN
+AR Path="/5F747DA7/5F767A82" Ref="R24"  Part="1" 
+AR Path="/5F79F032/5F767A82" Ref="R47"  Part="1" 
+AR Path="/5F7A6B7B/5F767A82" Ref="R57"  Part="1" 
+AR Path="/5F7B080A/5F767A82" Ref="R67"  Part="1" 
+F 0 "R47" H 5070 4396 50  0000 L CNN
 F 1 "100k" H 5070 4305 50  0000 L CNN
 F 2 "" V 4930 4350 50  0001 C CNN
 F 3 "~" H 5000 4350 50  0001 C CNN
@@ -178,14 +178,14 @@ F 3 "~" H 5000 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R23
 U 1 1 5F767A88
 P 5000 4050
-AR Path="/5F747DA7/5F767A88" Ref="R?"  Part="1" 
-AR Path="/5F79F032/5F767A88" Ref="R?"  Part="1" 
-AR Path="/5F7A6B7B/5F767A88" Ref="R?"  Part="1" 
-AR Path="/5F7B080A/5F767A88" Ref="R?"  Part="1" 
-F 0 "R?" H 5070 4096 50  0000 L CNN
+AR Path="/5F747DA7/5F767A88" Ref="R23"  Part="1" 
+AR Path="/5F79F032/5F767A88" Ref="R46"  Part="1" 
+AR Path="/5F7A6B7B/5F767A88" Ref="R56"  Part="1" 
+AR Path="/5F7B080A/5F767A88" Ref="R66"  Part="1" 
+F 0 "R46" H 5070 4096 50  0000 L CNN
 F 1 "200k" H 5070 4005 50  0000 L CNN
 F 2 "" V 4930 4050 50  0001 C CNN
 F 3 "~" H 5000 4050 50  0001 C CNN
@@ -207,14 +207,14 @@ Wire Wire Line
 	4400 4200 4400 4400
 Connection ~ 5000 4200
 $Comp
-L Device:R R?
+L Device:R R25
 U 1 1 5F767A96
 P 5250 3600
-AR Path="/5F747DA7/5F767A96" Ref="R?"  Part="1" 
-AR Path="/5F79F032/5F767A96" Ref="R?"  Part="1" 
-AR Path="/5F7A6B7B/5F767A96" Ref="R?"  Part="1" 
-AR Path="/5F7B080A/5F767A96" Ref="R?"  Part="1" 
-F 0 "R?" V 5043 3600 50  0000 C CNN
+AR Path="/5F747DA7/5F767A96" Ref="R25"  Part="1" 
+AR Path="/5F79F032/5F767A96" Ref="R48"  Part="1" 
+AR Path="/5F7A6B7B/5F767A96" Ref="R58"  Part="1" 
+AR Path="/5F7B080A/5F767A96" Ref="R68"  Part="1" 
+F 0 "R48" V 5043 3600 50  0000 C CNN
 F 1 "200k" V 5134 3600 50  0000 C CNN
 F 2 "" V 5180 3600 50  0001 C CNN
 F 3 "~" H 5250 3600 50  0001 C CNN
@@ -222,14 +222,14 @@ F 3 "~" H 5250 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R27
 U 1 1 5F767A9C
 P 5850 3600
-AR Path="/5F747DA7/5F767A9C" Ref="R?"  Part="1" 
-AR Path="/5F79F032/5F767A9C" Ref="R?"  Part="1" 
-AR Path="/5F7A6B7B/5F767A9C" Ref="R?"  Part="1" 
-AR Path="/5F7B080A/5F767A9C" Ref="R?"  Part="1" 
-F 0 "R?" V 5643 3600 50  0000 C CNN
+AR Path="/5F747DA7/5F767A9C" Ref="R27"  Part="1" 
+AR Path="/5F79F032/5F767A9C" Ref="R50"  Part="1" 
+AR Path="/5F7A6B7B/5F767A9C" Ref="R60"  Part="1" 
+AR Path="/5F7B080A/5F767A9C" Ref="R70"  Part="1" 
+F 0 "R50" V 5643 3600 50  0000 C CNN
 F 1 "100k" V 5734 3600 50  0000 C CNN
 F 2 "" V 5780 3600 50  0001 C CNN
 F 3 "~" H 5850 3600 50  0001 C CNN
@@ -237,14 +237,14 @@ F 3 "~" H 5850 3600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R26
 U 1 1 5F767AA2
 P 5250 4500
-AR Path="/5F747DA7/5F767AA2" Ref="R?"  Part="1" 
-AR Path="/5F79F032/5F767AA2" Ref="R?"  Part="1" 
-AR Path="/5F7A6B7B/5F767AA2" Ref="R?"  Part="1" 
-AR Path="/5F7B080A/5F767AA2" Ref="R?"  Part="1" 
-F 0 "R?" V 5450 4500 50  0000 C CNN
+AR Path="/5F747DA7/5F767AA2" Ref="R26"  Part="1" 
+AR Path="/5F79F032/5F767AA2" Ref="R49"  Part="1" 
+AR Path="/5F7A6B7B/5F767AA2" Ref="R59"  Part="1" 
+AR Path="/5F7B080A/5F767AA2" Ref="R69"  Part="1" 
+F 0 "R49" V 5450 4500 50  0000 C CNN
 F 1 "200k" V 5350 4450 50  0000 C CNN
 F 2 "" V 5180 4500 50  0001 C CNN
 F 3 "~" H 5250 4500 50  0001 C CNN
@@ -252,14 +252,14 @@ F 3 "~" H 5250 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R28
 U 1 1 5F767AA8
 P 5850 4500
-AR Path="/5F747DA7/5F767AA8" Ref="R?"  Part="1" 
-AR Path="/5F79F032/5F767AA8" Ref="R?"  Part="1" 
-AR Path="/5F7A6B7B/5F767AA8" Ref="R?"  Part="1" 
-AR Path="/5F7B080A/5F767AA8" Ref="R?"  Part="1" 
-F 0 "R?" V 5643 4500 50  0000 C CNN
+AR Path="/5F747DA7/5F767AA8" Ref="R28"  Part="1" 
+AR Path="/5F79F032/5F767AA8" Ref="R51"  Part="1" 
+AR Path="/5F7A6B7B/5F767AA8" Ref="R61"  Part="1" 
+AR Path="/5F7B080A/5F767AA8" Ref="R71"  Part="1" 
+F 0 "R51" V 5643 4500 50  0000 C CNN
 F 1 "100k" V 5734 4500 50  0000 C CNN
 F 2 "" V 5780 4500 50  0001 C CNN
 F 3 "~" H 5850 4500 50  0001 C CNN
@@ -313,14 +313,14 @@ Wire Wire Line
 Wire Wire Line
 	6500 4100 6600 4100
 $Comp
-L Device:R R?
+L Device:R R29
 U 1 1 5F767AC9
 P 8300 4150
-AR Path="/5F747DA7/5F767AC9" Ref="R?"  Part="1" 
-AR Path="/5F79F032/5F767AC9" Ref="R?"  Part="1" 
-AR Path="/5F7A6B7B/5F767AC9" Ref="R?"  Part="1" 
-AR Path="/5F7B080A/5F767AC9" Ref="R?"  Part="1" 
-F 0 "R?" H 8370 4196 50  0000 L CNN
+AR Path="/5F747DA7/5F767AC9" Ref="R29"  Part="1" 
+AR Path="/5F79F032/5F767AC9" Ref="R52"  Part="1" 
+AR Path="/5F7A6B7B/5F767AC9" Ref="R62"  Part="1" 
+AR Path="/5F7B080A/5F767AC9" Ref="R72"  Part="1" 
+F 0 "R52" H 8370 4196 50  0000 L CNN
 F 1 "100k" H 8370 4105 50  0000 L CNN
 F 2 "" V 8230 4150 50  0001 C CNN
 F 3 "~" H 8300 4150 50  0001 C CNN
@@ -343,14 +343,14 @@ csúcsban 2.3V
 Text Notes 7700 3900 0    50   ~ 0
 csúcsban 2.3V
 $Comp
-L Device:D_Schottky D?
+L Device:D_Schottky D10
 U 1 1 5F767AD8
 P 7500 4000
-AR Path="/5F747DA7/5F767AD8" Ref="D?"  Part="1" 
-AR Path="/5F79F032/5F767AD8" Ref="D?"  Part="1" 
-AR Path="/5F7A6B7B/5F767AD8" Ref="D?"  Part="1" 
-AR Path="/5F7B080A/5F767AD8" Ref="D?"  Part="1" 
-F 0 "D?" H 7500 3784 50  0000 C CNN
+AR Path="/5F747DA7/5F767AD8" Ref="D10"  Part="1" 
+AR Path="/5F79F032/5F767AD8" Ref="D11"  Part="1" 
+AR Path="/5F7A6B7B/5F767AD8" Ref="D12"  Part="1" 
+AR Path="/5F7B080A/5F767AD8" Ref="D13"  Part="1" 
+F 0 "D11" H 7500 3784 50  0000 C CNN
 F 1 "bas85" H 7500 3875 50  0000 C CNN
 F 2 "" H 7500 4000 50  0001 C CNN
 F 3 "~" H 7500 4000 50  0001 C CNN
@@ -358,14 +358,14 @@ F 3 "~" H 7500 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR055
 U 1 1 5F767ADE
 P 4150 4050
-AR Path="/5F747DA7/5F767ADE" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767ADE" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767ADE" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767ADE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4150 3800 50  0001 C CNN
+AR Path="/5F747DA7/5F767ADE" Ref="#PWR055"  Part="1" 
+AR Path="/5F79F032/5F767ADE" Ref="#PWR094"  Part="1" 
+AR Path="/5F7A6B7B/5F767ADE" Ref="#PWR0106"  Part="1" 
+AR Path="/5F7B080A/5F767ADE" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR094" H 4150 3800 50  0001 C CNN
 F 1 "GNDA" H 4155 3877 50  0000 C CNN
 F 2 "" H 4150 4050 50  0001 C CNN
 F 3 "" H 4150 4050 50  0001 C CNN
@@ -373,14 +373,14 @@ F 3 "" H 4150 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR056
 U 1 1 5F767AE4
 P 6100 4500
-AR Path="/5F747DA7/5F767AE4" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767AE4" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767AE4" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767AE4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6100 4250 50  0001 C CNN
+AR Path="/5F747DA7/5F767AE4" Ref="#PWR056"  Part="1" 
+AR Path="/5F79F032/5F767AE4" Ref="#PWR095"  Part="1" 
+AR Path="/5F7A6B7B/5F767AE4" Ref="#PWR0107"  Part="1" 
+AR Path="/5F7B080A/5F767AE4" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR095" H 6100 4250 50  0001 C CNN
 F 1 "GNDA" H 6105 4327 50  0000 C CNN
 F 2 "" H 6100 4500 50  0001 C CNN
 F 3 "" H 6100 4500 50  0001 C CNN
@@ -388,14 +388,14 @@ F 3 "" H 6100 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR063
 U 1 1 5F767AEA
 P 8000 4300
-AR Path="/5F747DA7/5F767AEA" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767AEA" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767AEA" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767AEA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8000 4050 50  0001 C CNN
+AR Path="/5F747DA7/5F767AEA" Ref="#PWR063"  Part="1" 
+AR Path="/5F79F032/5F767AEA" Ref="#PWR0102"  Part="1" 
+AR Path="/5F7A6B7B/5F767AEA" Ref="#PWR0114"  Part="1" 
+AR Path="/5F7B080A/5F767AEA" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0102" H 8000 4050 50  0001 C CNN
 F 1 "GNDA" H 8005 4127 50  0000 C CNN
 F 2 "" H 8000 4300 50  0001 C CNN
 F 3 "" H 8000 4300 50  0001 C CNN
@@ -403,14 +403,14 @@ F 3 "" H 8000 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR064
 U 1 1 5F767AF0
 P 8300 4300
-AR Path="/5F747DA7/5F767AF0" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767AF0" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767AF0" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767AF0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8300 4050 50  0001 C CNN
+AR Path="/5F747DA7/5F767AF0" Ref="#PWR064"  Part="1" 
+AR Path="/5F79F032/5F767AF0" Ref="#PWR0103"  Part="1" 
+AR Path="/5F7A6B7B/5F767AF0" Ref="#PWR0115"  Part="1" 
+AR Path="/5F7B080A/5F767AF0" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0103" H 8300 4050 50  0001 C CNN
 F 1 "GNDA" H 8305 4127 50  0000 C CNN
 F 2 "" H 8300 4300 50  0001 C CNN
 F 3 "" H 8300 4300 50  0001 C CNN
@@ -418,14 +418,14 @@ F 3 "" H 8300 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR?
+L power:+3.3VA #PWR057
 U 1 1 5F767AF6
 P 7200 3100
-AR Path="/5F747DA7/5F767AF6" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767AF6" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767AF6" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767AF6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7200 2950 50  0001 C CNN
+AR Path="/5F747DA7/5F767AF6" Ref="#PWR057"  Part="1" 
+AR Path="/5F79F032/5F767AF6" Ref="#PWR096"  Part="1" 
+AR Path="/5F7A6B7B/5F767AF6" Ref="#PWR0108"  Part="1" 
+AR Path="/5F7B080A/5F767AF6" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR096" H 7200 2950 50  0001 C CNN
 F 1 "+3.3VA" H 7215 3273 50  0000 C CNN
 F 2 "" H 7200 3100 50  0001 C CNN
 F 3 "" H 7200 3100 50  0001 C CNN
@@ -433,14 +433,14 @@ F 3 "" H 7200 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-3V3 #PWR?
+L power:-3V3 #PWR058
 U 1 1 5F767AFC
 P 7200 3700
-AR Path="/5F747DA7/5F767AFC" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767AFC" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767AFC" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767AFC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7200 3800 50  0001 C CNN
+AR Path="/5F747DA7/5F767AFC" Ref="#PWR058"  Part="1" 
+AR Path="/5F79F032/5F767AFC" Ref="#PWR097"  Part="1" 
+AR Path="/5F7A6B7B/5F767AFC" Ref="#PWR0109"  Part="1" 
+AR Path="/5F7B080A/5F767AFC" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR097" H 7200 3800 50  0001 C CNN
 F 1 "-3V3" H 7215 3873 50  0000 C CNN
 F 2 "" H 7200 3700 50  0001 C CNN
 F 3 "" H 7200 3700 50  0001 C CNN
@@ -448,14 +448,14 @@ F 3 "" H 7200 3700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C24
 U 1 1 5F767B02
 P 7550 3300
-AR Path="/5F747DA7/5F767B02" Ref="C?"  Part="1" 
-AR Path="/5F79F032/5F767B02" Ref="C?"  Part="1" 
-AR Path="/5F7A6B7B/5F767B02" Ref="C?"  Part="1" 
-AR Path="/5F7B080A/5F767B02" Ref="C?"  Part="1" 
-F 0 "C?" H 7665 3346 50  0000 L CNN
+AR Path="/5F747DA7/5F767B02" Ref="C24"  Part="1" 
+AR Path="/5F79F032/5F767B02" Ref="C44"  Part="1" 
+AR Path="/5F7A6B7B/5F767B02" Ref="C48"  Part="1" 
+AR Path="/5F7B080A/5F767B02" Ref="C52"  Part="1" 
+F 0 "C44" H 7665 3346 50  0000 L CNN
 F 1 "100n" H 7665 3255 50  0000 L CNN
 F 2 "" H 7588 3150 50  0001 C CNN
 F 3 "~" H 7550 3300 50  0001 C CNN
@@ -463,14 +463,14 @@ F 3 "~" H 7550 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C27
 U 1 1 5F767B08
 P 8500 3300
-AR Path="/5F747DA7/5F767B08" Ref="C?"  Part="1" 
-AR Path="/5F79F032/5F767B08" Ref="C?"  Part="1" 
-AR Path="/5F7A6B7B/5F767B08" Ref="C?"  Part="1" 
-AR Path="/5F7B080A/5F767B08" Ref="C?"  Part="1" 
-F 0 "C?" H 8615 3346 50  0000 L CNN
+AR Path="/5F747DA7/5F767B08" Ref="C27"  Part="1" 
+AR Path="/5F79F032/5F767B08" Ref="C47"  Part="1" 
+AR Path="/5F7A6B7B/5F767B08" Ref="C51"  Part="1" 
+AR Path="/5F7B080A/5F767B08" Ref="C55"  Part="1" 
+F 0 "C47" H 8615 3346 50  0000 L CNN
 F 1 "100n" H 8615 3255 50  0000 L CNN
 F 2 "" H 8538 3150 50  0001 C CNN
 F 3 "~" H 8500 3300 50  0001 C CNN
@@ -478,14 +478,14 @@ F 3 "~" H 8500 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR?
+L power:+3.3VA #PWR059
 U 1 1 5F767B0E
 P 7550 3150
-AR Path="/5F747DA7/5F767B0E" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767B0E" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767B0E" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767B0E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7550 3000 50  0001 C CNN
+AR Path="/5F747DA7/5F767B0E" Ref="#PWR059"  Part="1" 
+AR Path="/5F79F032/5F767B0E" Ref="#PWR098"  Part="1" 
+AR Path="/5F7A6B7B/5F767B0E" Ref="#PWR0110"  Part="1" 
+AR Path="/5F7B080A/5F767B0E" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR098" H 7550 3000 50  0001 C CNN
 F 1 "+3.3VA" H 7565 3323 50  0000 C CNN
 F 2 "" H 7550 3150 50  0001 C CNN
 F 3 "" H 7550 3150 50  0001 C CNN
@@ -493,14 +493,14 @@ F 3 "" H 7550 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR060
 U 1 1 5F767B14
 P 7550 3450
-AR Path="/5F747DA7/5F767B14" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767B14" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767B14" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767B14" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7550 3200 50  0001 C CNN
+AR Path="/5F747DA7/5F767B14" Ref="#PWR060"  Part="1" 
+AR Path="/5F79F032/5F767B14" Ref="#PWR099"  Part="1" 
+AR Path="/5F7A6B7B/5F767B14" Ref="#PWR0111"  Part="1" 
+AR Path="/5F7B080A/5F767B14" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR099" H 7550 3200 50  0001 C CNN
 F 1 "GNDA" H 7555 3277 50  0000 C CNN
 F 2 "" H 7550 3450 50  0001 C CNN
 F 3 "" H 7550 3450 50  0001 C CNN
@@ -508,14 +508,14 @@ F 3 "" H 7550 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR066
 U 1 1 5F767B1A
 P 8500 3450
-AR Path="/5F747DA7/5F767B1A" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767B1A" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767B1A" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767B1A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8500 3200 50  0001 C CNN
+AR Path="/5F747DA7/5F767B1A" Ref="#PWR066"  Part="1" 
+AR Path="/5F79F032/5F767B1A" Ref="#PWR0105"  Part="1" 
+AR Path="/5F7A6B7B/5F767B1A" Ref="#PWR0117"  Part="1" 
+AR Path="/5F7B080A/5F767B1A" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0105" H 8500 3200 50  0001 C CNN
 F 1 "GNDA" H 8505 3277 50  0000 C CNN
 F 2 "" H 8500 3450 50  0001 C CNN
 F 3 "" H 8500 3450 50  0001 C CNN
@@ -523,14 +523,14 @@ F 3 "" H 8500 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:-3V3 #PWR?
+L power:-3V3 #PWR065
 U 1 1 5F767B20
 P 8500 3150
-AR Path="/5F747DA7/5F767B20" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767B20" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767B20" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767B20" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8500 3250 50  0001 C CNN
+AR Path="/5F747DA7/5F767B20" Ref="#PWR065"  Part="1" 
+AR Path="/5F79F032/5F767B20" Ref="#PWR0104"  Part="1" 
+AR Path="/5F7A6B7B/5F767B20" Ref="#PWR0116"  Part="1" 
+AR Path="/5F7B080A/5F767B20" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0104" H 8500 3250 50  0001 C CNN
 F 1 "-3V3" H 8515 3323 50  0000 C CNN
 F 2 "" H 8500 3150 50  0001 C CNN
 F 3 "" H 8500 3150 50  0001 C CNN
@@ -543,14 +543,14 @@ Connection ~ 8300 4000
 Wire Wire Line
 	7700 4000 8000 4000
 $Comp
-L Device:C C?
+L Device:C C26
 U 1 1 5F767B2A
 P 8000 4150
-AR Path="/5F747DA7/5F767B2A" Ref="C?"  Part="1" 
-AR Path="/5F79F032/5F767B2A" Ref="C?"  Part="1" 
-AR Path="/5F7A6B7B/5F767B2A" Ref="C?"  Part="1" 
-AR Path="/5F7B080A/5F767B2A" Ref="C?"  Part="1" 
-F 0 "C?" H 8115 4196 50  0000 L CNN
+AR Path="/5F747DA7/5F767B2A" Ref="C26"  Part="1" 
+AR Path="/5F79F032/5F767B2A" Ref="C46"  Part="1" 
+AR Path="/5F7A6B7B/5F767B2A" Ref="C50"  Part="1" 
+AR Path="/5F7B080A/5F767B2A" Ref="C54"  Part="1" 
+F 0 "C46" H 8115 4196 50  0000 L CNN
 F 1 "1u" H 8115 4105 50  0000 L CNN
 F 2 "" H 8038 4000 50  0001 C CNN
 F 3 "~" H 8000 4150 50  0001 C CNN
@@ -571,11 +571,11 @@ L mosogep-rescue:CP-Device C?
 U 1 1 5F767B3B
 P 8000 3300
 AR Path="/5F767B3B" Ref="C?"  Part="1" 
-AR Path="/5F747DA7/5F767B3B" Ref="C?"  Part="1" 
-AR Path="/5F79F032/5F767B3B" Ref="C?"  Part="1" 
-AR Path="/5F7A6B7B/5F767B3B" Ref="C?"  Part="1" 
-AR Path="/5F7B080A/5F767B3B" Ref="C?"  Part="1" 
-F 0 "C?" H 8118 3346 50  0000 L CNN
+AR Path="/5F747DA7/5F767B3B" Ref="C25"  Part="1" 
+AR Path="/5F79F032/5F767B3B" Ref="C45"  Part="1" 
+AR Path="/5F7A6B7B/5F767B3B" Ref="C49"  Part="1" 
+AR Path="/5F7B080A/5F767B3B" Ref="C53"  Part="1" 
+F 0 "C45" H 8118 3346 50  0000 L CNN
 F 1 "10u" H 8118 3255 50  0000 L CNN
 F 2 "" H 8038 3150 50  0001 C CNN
 F 3 "~" H 8000 3300 50  0001 C CNN
@@ -583,14 +583,14 @@ F 3 "~" H 8000 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GNDA #PWR062
 U 1 1 5F767B41
 P 8000 3450
-AR Path="/5F747DA7/5F767B41" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767B41" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767B41" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767B41" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8000 3200 50  0001 C CNN
+AR Path="/5F747DA7/5F767B41" Ref="#PWR062"  Part="1" 
+AR Path="/5F79F032/5F767B41" Ref="#PWR0101"  Part="1" 
+AR Path="/5F7A6B7B/5F767B41" Ref="#PWR0113"  Part="1" 
+AR Path="/5F7B080A/5F767B41" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0101" H 8000 3200 50  0001 C CNN
 F 1 "GNDA" H 8005 3277 50  0000 C CNN
 F 2 "" H 8000 3450 50  0001 C CNN
 F 3 "" H 8000 3450 50  0001 C CNN
@@ -598,14 +598,14 @@ F 3 "" H 8000 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VA #PWR?
+L power:+3.3VA #PWR061
 U 1 1 5F767B47
 P 8000 3150
-AR Path="/5F747DA7/5F767B47" Ref="#PWR?"  Part="1" 
-AR Path="/5F79F032/5F767B47" Ref="#PWR?"  Part="1" 
-AR Path="/5F7A6B7B/5F767B47" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B080A/5F767B47" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8000 3000 50  0001 C CNN
+AR Path="/5F747DA7/5F767B47" Ref="#PWR061"  Part="1" 
+AR Path="/5F79F032/5F767B47" Ref="#PWR0100"  Part="1" 
+AR Path="/5F7A6B7B/5F767B47" Ref="#PWR0112"  Part="1" 
+AR Path="/5F7B080A/5F767B47" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0100" H 8000 3000 50  0001 C CNN
 F 1 "+3.3VA" H 8015 3323 50  0000 C CNN
 F 2 "" H 8000 3150 50  0001 C CNN
 F 3 "" H 8000 3150 50  0001 C CNN

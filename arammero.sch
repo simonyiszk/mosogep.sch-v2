@@ -583,7 +583,7 @@ $EndComp
 Text HLabel 8350 2600 2    50   Input ~ 0
 Csucsertek
 Wire Wire Line
-	5650 2600 5850 2600
+	5650 2600 5800 2600
 Text HLabel 8750 3850 2    50   Input ~ 0
 Pillanat
 $Comp
@@ -631,7 +631,7 @@ F 3 "~" H 7650 3050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7650 2600 8050 2600
+	7650 2600 7900 2600
 Connection ~ 8050 2600
 Wire Wire Line
 	8050 2600 8350 2600
@@ -787,7 +787,7 @@ Wire Wire Line
 	8250 3850 8300 3850
 Connection ~ 8300 3850
 Wire Wire Line
-	8300 3850 8750 3850
+	8300 3850 8600 3850
 Wire Wire Line
 	7300 2900 7300 3950
 Connection ~ 7300 3950
@@ -805,7 +805,7 @@ $EndComp
 Wire Wire Line
 	6850 3700 6850 3950
 Wire Wire Line
-	6850 3950 7100 3950
+	6850 3950 6900 3950
 Wire Wire Line
 	6850 3100 6850 2600
 Connection ~ 7650 2600
@@ -820,4 +820,68 @@ Wire Wire Line
 	6650 3400 6600 3400
 Wire Wire Line
 	6600 2600 6600 3400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F898268
+P 5800 2650
+F 0 "TP?" H 5743 2676 50  0000 R CNN
+F 1 "TestPoint" H 5743 2767 50  0000 R CNN
+F 2 "" H 6000 2650 50  0001 C CNN
+F 3 "~" H 6000 2650 50  0001 C CNN
+	1    5800 2650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5800 2650 5800 2600
+Connection ~ 5800 2600
+Wire Wire Line
+	5800 2600 5850 2600
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F89C1AC
+P 7900 2550
+F 0 "TP?" H 7842 2668 50  0000 R CNN
+F 1 "TestPoint" H 7842 2577 50  0000 R CNN
+F 2 "" H 8100 2550 50  0001 C CNN
+F 3 "~" H 8100 2550 50  0001 C CNN
+	1    7900 2550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2550 7900 2600
+Connection ~ 7900 2600
+Wire Wire Line
+	7900 2600 8050 2600
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F8A1D27
+P 8600 3800
+F 0 "TP?" H 8542 3918 50  0000 R CNN
+F 1 "TestPoint" H 8542 3827 50  0000 R CNN
+F 2 "" H 8800 3800 50  0001 C CNN
+F 3 "~" H 8800 3800 50  0001 C CNN
+	1    8600 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 3800 8600 3850
+Connection ~ 8600 3850
+Wire Wire Line
+	8600 3850 8750 3850
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F8A4E56
+P 6900 3850
+F 0 "TP?" H 6842 3968 50  0000 R CNN
+F 1 "TestPoint" H 6842 3877 50  0000 R CNN
+F 2 "" H 7100 3850 50  0001 C CNN
+F 3 "~" H 7100 3850 50  0001 C CNN
+	1    6900 3850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 3850 6900 3950
+Connection ~ 6900 3950
+Wire Wire Line
+	6900 3950 7100 3950
 $EndSCHEMATC

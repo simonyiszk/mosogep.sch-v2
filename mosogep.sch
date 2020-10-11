@@ -397,31 +397,23 @@ $EndComp
 Wire Wire Line
 	5600 3250 6150 3250
 Wire Wire Line
-	6150 3250 6150 2950
-Wire Wire Line
 	6150 2950 6800 2950
 $Comp
 L Device:R R11
 U 1 1 5E82E9D8
-P 6300 3250
-F 0 "R11" V 6093 3250 50  0000 C CNN
-F 1 "1M" V 6184 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6230 3250 50  0001 C CNN
-F 3 "~" H 6300 3250 50  0001 C CNN
-	1    6300 3250
-	0    1    1    0   
+P 6150 3100
+F 0 "R11" H 6050 3150 50  0000 C CNN
+F 1 "470" H 6050 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6080 3100 50  0001 C CNN
+F 3 "~" H 6150 3100 50  0001 C CNN
+	1    6150 3100
+	-1   0    0    1   
 $EndComp
-Connection ~ 6150 3250
 Wire Wire Line
 	6050 3400 6450 3400
-Wire Wire Line
-	6450 3400 6450 3250
 Connection ~ 6450 3400
 Wire Wire Line
-	6450 3050 6450 3250
-Wire Wire Line
 	6450 3050 6800 3050
-Connection ~ 6450 3250
 $Comp
 L Device:C C4
 U 1 1 5E832966
@@ -680,14 +672,6 @@ F 3 "" H 2100 4600 50  0001 C CNN
 	1    2100 4600
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 650  700  1100 350 
-U 5F747DA7
-F0 "Árammérő" 50
-F1 "arammero.sch" 50
-F2 "Csucsertek" I R 1750 800 50 
-F3 "Pillanat" I R 1750 950 50 
-$EndSheet
 Text Label 9150 850  0    50   ~ 0
 swdio
 Text Label 9150 750  0    50   ~ 0
@@ -753,30 +737,6 @@ Wire Wire Line
 	1800 3850 2350 3850
 Text Label 2350 3850 0    50   ~ 0
 ETH_INT
-$Sheet
-S 650  1250 1100 350 
-U 5F79F032
-F0 "Árammérő2" 50
-F1 "arammero.sch" 50
-F2 "Csucsertek" I R 1750 1350 50 
-F3 "Pillanat" I R 1750 1500 50 
-$EndSheet
-$Sheet
-S 650  1800 1100 350 
-U 5F7A6B7B
-F0 "Árammérő3" 50
-F1 "arammero.sch" 50
-F2 "Csucsertek" I R 1750 1900 50 
-F3 "Pillanat" I R 1750 2050 50 
-$EndSheet
-$Sheet
-S 650  2350 1100 350 
-U 5F7B080A
-F0 "Árammérő4" 50
-F1 "arammero.sch" 50
-F2 "Csucsertek" I R 1750 2450 50 
-F3 "Pillanat" I R 1750 2600 50 
-$EndSheet
 Text Label 6300 3950 0    50   ~ 0
 w5500_reset
 Text Label 2350 3750 0    50   ~ 0
@@ -1283,4 +1243,48 @@ F 3 "" H 2150 7350 50  0001 C CNN
 	1    2150 7350
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8000 4250
+Wire Wire Line
+	6450 3050 6450 3400
+NoConn ~ 8000 4350
+NoConn ~ 8000 4450
+NoConn ~ 8000 4550
+NoConn ~ 6800 3150
+NoConn ~ 6800 3250
+NoConn ~ 6800 3450
+NoConn ~ 6800 3550
+NoConn ~ 6800 3650
+NoConn ~ 6800 3850
+$Sheet
+S 650  2350 1100 350 
+U 5F7B080A
+F0 "Árammérő4" 50
+F1 "arammero.sch" 50
+F2 "Csucsertek" I R 1750 2450 50 
+F3 "Fazismeres" I R 1750 2600 50 
+$EndSheet
+$Sheet
+S 650  1800 1100 350 
+U 5F7A6B7B
+F0 "Árammérő3" 50
+F1 "arammero.sch" 50
+F2 "Csucsertek" I R 1750 1900 50 
+F3 "Fazismeres" I R 1750 2050 50 
+$EndSheet
+$Sheet
+S 650  1250 1100 350 
+U 5F79F032
+F0 "Árammérő2" 50
+F1 "arammero.sch" 50
+F2 "Csucsertek" I R 1750 1350 50 
+F3 "Fazismeres" I R 1750 1500 50 
+$EndSheet
+$Sheet
+S 650  700  1100 350 
+U 5F747DA7
+F0 "Árammérő" 50
+F1 "arammero.sch" 50
+F2 "Csucsertek" I R 1750 800 50 
+F3 "Fazismeres" I R 1750 950 50 
+$EndSheet
 $EndSCHEMATC
